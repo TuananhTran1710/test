@@ -1,0 +1,17 @@
+﻿  game_map.cpp
+H:\Visual\GameSDL2\GameSDL2\CommonFunc.h(35,2): warning C4091: 'typedef ': ignored on left of 'Map' when no variable is declared
+  (compiling source file 'game_map.cpp')
+  
+  main.cpp
+H:\Visual\GameSDL2\GameSDL2\CommonFunc.h(35,2): warning C4091: 'typedef ': ignored on left of 'Map' when no variable is declared
+  (compiling source file 'main.cpp')
+  
+H:\Visual\GameSDL2\GameSDL2\main.cpp(57,10): error C2664: 'void GameMap::LoadMap(char *)': cannot convert argument 1 from 'const char [14]' to 'char *'
+  H:\Visual\GameSDL2\GameSDL2\main.cpp(57,19):
+  Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+  H:\Visual\GameSDL2\GameSDL2\game_map.h(20,7):
+  see declaration of 'GameMap::LoadMap'
+  H:\Visual\GameSDL2\GameSDL2\main.cpp(57,10):
+  while trying to match the argument list '(const char [14])'
+  
+  Generating Code...
