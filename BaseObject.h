@@ -14,11 +14,11 @@ public :
 	}
 	SDL_Rect GetRect() { return rect; }
 	SDL_Texture* GetObject() { return p_object; }
-	bool LoadImg(std::string path, SDL_Renderer* screen);
+	virtual bool LoadImg(std::string path, SDL_Renderer* screen);
 	void Render(SDL_Renderer* des, const SDL_Rect* clip = NULL);
 	void Free();
 
-private : 
+protected : 
 	SDL_Texture* p_object; 
 	SDL_Rect rect; 
 };

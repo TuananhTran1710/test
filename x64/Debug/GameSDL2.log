@@ -1,17 +1,25 @@
-﻿  game_map.cpp
-H:\Visual\GameSDL2\GameSDL2\CommonFunc.h(35,2): warning C4091: 'typedef ': ignored on left of 'Map' when no variable is declared
-  (compiling source file 'game_map.cpp')
+﻿  MainObject.cpp
+H:\Visual\GameSDL2\GameSDL2\CommonFunc.h(50,2): warning C4091: 'typedef ': ignored on left of 'Map' when no variable is declared
+  (compiling source file 'MainObject.cpp')
   
-  main.cpp
-H:\Visual\GameSDL2\GameSDL2\CommonFunc.h(35,2): warning C4091: 'typedef ': ignored on left of 'Map' when no variable is declared
-  (compiling source file 'main.cpp')
+H:\Visual\GameSDL2\GameSDL2\CommonFunc.h(55,2): warning C4091: 'typedef ': ignored on left of 'Input' when no variable is declared
+  (compiling source file 'MainObject.cpp')
   
-H:\Visual\GameSDL2\GameSDL2\main.cpp(57,10): error C2664: 'void GameMap::LoadMap(char *)': cannot convert argument 1 from 'const char [14]' to 'char *'
-  H:\Visual\GameSDL2\GameSDL2\main.cpp(57,19):
-  Conversion from string literal loses const qualifier (see /Zc:strictStrings)
-  H:\Visual\GameSDL2\GameSDL2\game_map.h(20,7):
-  see declaration of 'GameMap::LoadMap'
-  H:\Visual\GameSDL2\GameSDL2\main.cpp(57,10):
-  while trying to match the argument list '(const char [14])'
-  
-  Generating Code...
+H:\Visual\GameSDL2\GameSDL2\MainObject.cpp(64,11): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+H:\Visual\GameSDL2\GameSDL2\MainObject.cpp(65,11): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+H:\Visual\GameSDL2\GameSDL2\MainObject.cpp(152,49): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+H:\Visual\GameSDL2\GameSDL2\MainObject.cpp(158,62): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+H:\Visual\GameSDL2\GameSDL2\MainObject.cpp(215,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+H:\Visual\GameSDL2\GameSDL2\MainObject.cpp(216,50): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+H:\Visual\GameSDL2\GameSDL2\MainObject.cpp(217,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+H:\Visual\GameSDL2\GameSDL2\MainObject.cpp(218,42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+H:\Visual\GameSDL2\GameSDL2\MainObject.cpp(224,52): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+H:\Visual\GameSDL2\GameSDL2\MainObject.cpp(231,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+H:\Visual\GameSDL2\GameSDL2\MainObject.cpp(236,26): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+H:\Visual\GameSDL2\GameSDL2\MainObject.cpp(237,42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+H:\Visual\GameSDL2\GameSDL2\MainObject.cpp(238,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+H:\Visual\GameSDL2\GameSDL2\MainObject.cpp(239,50): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+H:\Visual\GameSDL2\GameSDL2\MainObject.cpp(243,53): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+H:\Visual\GameSDL2\GameSDL2\MainObject.cpp(252,39): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+H:\Visual\GameSDL2\GameSDL2\MainObject.cpp(264,54): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  GameSDL2.vcxproj -> H:\Visual\GameSDL2\x64\Debug\GameSDL2.exe

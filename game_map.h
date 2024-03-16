@@ -1,29 +1,32 @@
-#ifndef GAME_MAP_H
-#define GAME_MAP_H
+#ifndef GAME_MAP_H_
+#define GAME_MAP_H_
 
 #include"CommonFunc.h"
-#include "BaseObject.h"
-#define MAX_TILES 20
-class TileMat : public BaseObject
-{
-public : 
-	TileMat();
-	~TileMat();
+#include"BaseObject.h"
 
+#define MAX_TILE 20
+class TileMat : public BaseObject {
+public:
+	TileMat() { ; }
+	~TileMat() { ; }
 };
 
-class GameMap
-{
-public : 
-	GameMap();
-	~GameMap();
-	void LoadMap(char* name);
-	void LoadMap1(std::string path);
+
+class GameMap {
+public:
+	//GameMap(){;};
+	//~GameMap() { ; };
+
 	void LoadTiles(SDL_Renderer* screen);
 	void DrawMap(SDL_Renderer* screen);
-private :
+	void LoadMap(std :: string path);    // không dùng vì loi ( dã dùng 1 doan code thay the trong hàm main)  
+
+	Map getMap() const { return game_map; }
+	void SetMap(Map& map_data) { game_map = map_data;} 
+private:
 	Map game_map;
-	TileMat tile_mat[MAX_TILES];
+	TileMat tile_mat[MAX_TILE];
+
 };
 
 #endif
